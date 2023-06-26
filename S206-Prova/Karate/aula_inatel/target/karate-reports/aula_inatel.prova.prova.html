@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>aula_inatel.prova.prova</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">5</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2023-06-25 06:57:22 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>Teste inicial padrão da API.</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:11]"><span>[2:11]</span> <span>Testando tipo, primeiro do array, depois dos elementos do array.</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:19]"><span>[3:19]</span> <span>Testando se os usuarios possuem nomes com mais de 5 caracteres.</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[4:26]"><span>[4:26]</span> <span>Testando url invalida.</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[5:32]"><span>[5:32]</span> <span>criando um novo usuario.</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">aula_inatel/prova/prova.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Testando API.</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">Teste inicial padrão da API.</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2299</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:6]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def url_base = https: &#39;https://gorest.co.in/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">18:57:16.081 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url url_base</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2291</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">18:57:16.493 request:
+1 &gt; GET https://gorest.co.in/
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+18:57:18.399 response time in milliseconds: 1895
+1 &lt; 200
+1 &lt; Date: Sun, 25 Jun 2023 21:57:18 GMT
+1 &lt; Content-Type: text/html; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; feature-policy: camera &#39;none&#39;; gyroscope &#39;none&#39;; microphone &#39;none&#39;; usb &#39;none&#39;; fullscreen &#39;self&#39;
+1 &lt; link: &lt;/assets/application-c2215c866bf3df3a67f73d4985e0a3153d43b861d8075949775721f2a936046c.css&gt;; rel=preload; as=style; nopush
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-request-id: 4a04920e-06cd-40c1-8ff8-d59bfb1805bd
+1 &lt; x-runtime: 0.082969
+1 &lt; x-xss-protection: 0
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=wlc0KlTbGkHFpaqkVRkXjmQwxgbTJwRYF3lSjh3xqLtfIFvU9aniLa5HvplozIQOTEPuGtjEL1Al5eoFOB%2FN1TbeTu8yyL9J7k%2Fma%2BoU0nVIjMb0uZ1fM1I4pGyFbg0%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 7dd0771e0cd9a6ba-GRU
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+1 &lt; Set-Cookie: _gorest_session=6pKeOuAisQlJFR71JirLhSSfKaH6mJ5YVfI18R8IH1pRWAVRQ0QbG4JYhjaeMTpkESeHkJ0Sud63XSCgeHbJ8YUhblB%2BaNBSRjZEAEvVPTbO1MP7y9d%2B9NqC2aMdGB6SN5WLbb053E717Yla4OVJoUhPfbscoDEAVGYUiSxw59vU2tWIS8DEe48k65uxgxKmlmpVUjEzut%2BqH4wR2WMJIvJwcGfoZ50QNsbJOKckCtppIld0hFA8MhNmvJdNtKrSLIanGi6VKLmz93qAz8WAVgsPXTIQQXc%3D--Z9yGv3xtTIuR%2BqT6--JEB%2BJ94Bd60hOfsa45Zlpg%3D%3D; Domain=gorest.co.in
+&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;meta content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot; name=&quot;viewport&quot; /&gt;&lt;link href=&quot;/favicon.ico&quot; rel=&quot;icon&quot; type=&quot;image/x-icon&quot; /&gt;&lt;title&gt;GraphQL and REST API for Testing and Prototyping | GO REST&lt;/title&gt;
+&lt;meta name=&quot;description&quot; content=&quot;24/7 online fake GraphQL and REST API service for quick testing and prototyping of web and android applications. Supports authentication, custom rate limiting, response format negotiation&quot;&gt;
+&lt;meta name=&quot;keywords&quot; content=&quot;graphql, rest api, fake data, api testing, graphql testing, json response, xml response, oauth, rate limiting&quot;&gt;&lt;meta name=&quot;csrf-param&quot; content=&quot;authenticity_token&quot; /&gt;
+&lt;meta name=&quot;csrf-token&quot; content=&quot;MVZoHw2lPYuE_c6RQ9EdGjHVisRPMSoS66inORezD3Zousofn4xM1Gap4H-NrTFJsj6VPuKNC0dxZHp9xQCpRw&quot; /&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/application-c2215c866bf3df3a67f73d4985e0a3153d43b861d8075949775721f2a936046c.css&quot; media=&quot;all&quot; data-turbolinks-track=&quot;reload&quot; /&gt;&lt;script src=&quot;/packs/js/application-6d702c1d0fe0df9ab52f.js&quot; data-turbolinks-track=&quot;reload&quot; defer=&quot;defer&quot;&gt;&lt;/script&gt;&lt;script async=&quot;true&quot; crossorigin=&quot;anonymous&quot; src=&quot;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899&quot;&gt;&lt;/script&gt;&lt;script async=&quot;true&quot; src=&quot;https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS&quot;&gt;&lt;/script&gt;&lt;script&gt;window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag(&#39;js&#39;, new Date());gtag(&#39;config&#39;, &#39;G-7KR6VNWHWS&#39;);&lt;/script&gt;&lt;/head&gt;&lt;body&gt;&lt;nav class=&quot;navbar navbar-expand-lg navbar-dark bg-dark sticky-top&quot;&gt;&lt;div class=&quot;container&quot;&gt;&lt;a class=&quot;navbar-brand&quot; href=&quot;/&quot;&gt;&lt;i class=&quot;fas fa-exchange-alt&quot;&gt;&lt;/i&gt; Go REST&lt;/a&gt;&lt;button aria-controls=&quot;AppNavBar&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot; class=&quot;navbar-toggler&quot; data-bs-target=&quot;#AppNavBar&quot; data-bs-toggle=&quot;collapse&quot; type=&quot;button&quot;&gt;&lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;&lt;/button&gt;&lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;AppNavBar&quot;&gt;&lt;ul class=&quot;navbar-nav ms-auto&quot;&gt;&lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;/chandamama-stories&quot;&gt;&lt;i class=&quot;fas fa-cloud-moon&quot;&gt;&lt;/i&gt; Chandamama Stories&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;/qa&quot;&gt;&lt;i class=&quot;fas fa-life-ring&quot;&gt;&lt;/i&gt; Help&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;/rest-console&quot;&gt;&lt;i class=&quot;fab fa-linux&quot;&gt;&lt;/i&gt; Rest Console&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;nav-item dropdown&quot;&gt;&lt;a aria-expanded=&quot;false&quot; class=&quot;nav-link dropdown-toggle&quot; data-bs-toggle=&quot;dropdown&quot; href=&quot;#&quot; id=&quot;ToolsDropDown&quot; role=&quot;button&quot;&gt;&lt;i class=&quot;fas fa-tools&quot;&gt;&lt;/i&gt; Tools&lt;/a&gt;&lt;ul aria-labelledby=&quot;ToolsDropDown&quot; class=&quot;dropdown-menu&quot;&gt;&lt;li class&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;/tools/base64-encode-decode&quot;&gt;Base64 Encode/Decode&lt;/a&gt;&lt;/li&gt;&lt;li class&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;/tools/url-encode-decode&quot;&gt;Url Encode/Decode&lt;/a&gt;&lt;/li&gt;&lt;li class&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;/tools/gcode-translator&quot;&gt;G-Code Translator&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;/consumer/login&quot;&gt;Login&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/nav&gt;&lt;div class=&quot;container pt-3&quot;&gt;&lt;h1 class=&quot;text-center&quot;&gt;GraphQL and REST API for Testing and Prototyping&lt;/h1&gt;&lt;h4 class=&quot;text-center text-muted&quot;&gt;fake data | real responses | 24/7 online&lt;/h4&gt;&lt;div class=&quot;row mt-5&quot;&gt;&lt;div class=&quot;col-md-6&quot;&gt;&lt;h3&gt;Resources&lt;/h3&gt;&lt;table class=&quot;table table-responsive-sm table-sm&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;samp&gt;&lt;a target=&quot;_blank&quot; class=&quot;text-white&quot; href=&quot;https://gorest.co.in/public/v2/users&quot;&gt;https://gorest.co.in/public/v2/users&lt;/a&gt;&lt;/samp&gt;&lt;/td&gt;&lt;td class=&quot;text-end&quot;&gt;2820&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;samp&gt;&lt;a target=&quot;_blank&quot; class=&quot;text-white&quot; href=&quot;https://gorest.co.in/public/v2/posts&quot;&gt;https://gorest.co.in/public/v2/posts&lt;/a&gt;&lt;/samp&gt;&lt;/td&gt;&lt;td class=&quot;text-end&quot;&gt;2580&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;samp&gt;&lt;a target=&quot;_blank&quot; class=&quot;text-white&quot; href=&quot;https://gorest.co.in/public/v2/comments&quot;&gt;https://gorest.co.in/public/v2/comments&lt;/a&gt;&lt;/samp&gt;&lt;/td&gt;&lt;td class=&quot;text-end&quot;&gt;2555&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;samp&gt;&lt;a target=&quot;_blank&quot; class=&quot;text-white&quot; href=&quot;https://gorest.co.in/public/v2/todos&quot;&gt;https://gorest.co.in/public/v2/todos&lt;/a&gt;&lt;/samp&gt;&lt;/td&gt;&lt;td class=&quot;text-end&quot;&gt;1568&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;div class=&quot;col-md-6&quot;&gt;&lt;h3&gt;Trying it Out&lt;/h3&gt;&lt;table class=&quot;table table-responsive-sm table-sm&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;samp&gt;POST /public/v2/users&lt;/samp&gt;&lt;/td&gt;&lt;td class=&quot;text-end&quot;&gt;Create a new user&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;samp&gt;GET /public/v2/users/1910&lt;/samp&gt;&lt;/td&gt;&lt;td class=&quot;text-end&quot;&gt;Get user details&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;samp&gt;PUT|PATCH /public/v2/users/1910&lt;/samp&gt;&lt;/td&gt;&lt;td class=&quot;text-end&quot;&gt;Update user details&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;samp&gt;DELETE /public/v2/users/1910&lt;/samp&gt;&lt;/td&gt;&lt;td class=&quot;text-end&quot;&gt;Delete user&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3 class=&quot;mt-3&quot;&gt;Nested Resources&lt;/h3&gt;&lt;div class=&quot;row&quot;&gt;&lt;div class=&quot;col-md-6&quot;&gt;&lt;table class=&quot;table table-responsive-sm table-sm&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;samp&gt;GET &lt;a target=&quot;_blank&quot; class=&quot;text-white&quot; href=&quot;https://gorest.co.in/public/v2/users/1910/posts&quot;&gt;/public/v2/users/1910/posts&lt;/a&gt;&lt;/samp&gt;&lt;/td&gt;&lt;td class=&quot;text-end&quot;&gt;Retrieves user posts&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;samp&gt;GET &lt;a target=&quot;_blank&quot; class=&quot;text-white&quot; href=&quot;https://gorest.co.in/public/v2/posts/1910/comments&quot;&gt;/public/v2/posts/1910/comments&lt;/a&gt;&lt;/samp&gt;&lt;/td&gt;&lt;td class=&quot;text-end&quot;&gt;Retrieves post comments&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;samp&gt;GET &lt;a target=&quot;_blank&quot; class=&quot;text-white&quot; href=&quot;https://gorest.co.in/public/v2/users/1910/todos&quot;&gt;/public/v2/users/1910/todos&lt;/a&gt;&lt;/samp&gt;&lt;/td&gt;&lt;td class=&quot;text-end&quot;&gt;Retrieves user todos&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;div class=&quot;col-md-6&quot;&gt;&lt;table class=&quot;table table-responsive-sm table-sm&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;samp&gt;POST /public/v2/users/1910/posts&lt;/samp&gt;&lt;/td&gt;&lt;td class=&quot;text-end&quot;&gt;Creates a user post&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;samp&gt;POST /public/v2/posts/1910/comments&lt;/samp&gt;&lt;/td&gt;&lt;td class=&quot;text-end&quot;&gt;Creates a post comment&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;samp&gt;POST /public/v2/users/1910/todos&lt;/samp&gt;&lt;/td&gt;&lt;td class=&quot;text-end&quot;&gt;Creates a user todo&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;ul&gt;&lt;li class=&quot;text-warning&quot;&gt;Do not post your personal data like name, email, phone, photo etc...&lt;/li&gt;&lt;li class=&quot;text-info&quot;&gt;For paged results parameter &quot;page&quot; and &quot;per_page&quot; should be passed in url ex: GET &lt;code&gt;/public/v2/users?page=1&amp;per_page=20&lt;/code&gt; (max 100 results per page)&lt;/li&gt;&lt;li class=&quot;text-info&quot;&gt;Request methods PUT, POST, PATCH, DELETE needs access token, which needs to be passed with &amp;quot;Authorization&amp;quot; header as Bearer token.&lt;/li&gt;&lt;li class=&quot;text-info&quot;&gt;API Versions &lt;code&gt;/public-api/*&lt;/code&gt;, &lt;code&gt;/public/v1/*&lt;/code&gt; and &lt;code&gt;/public/v2/*&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/consumer/login&quot;&gt;Get your access token&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h3 class=&quot;mt-5&quot;&gt;GraphQL Endpoint&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;GraphQL API is available at &lt;code&gt;https://gorest.co.in/public/v2/graphql&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;/graphql/schema.json&quot;&gt;View GraphQL json schema&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;graphql/schema.graphql&quot;&gt;View GrapQL schema&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h3 class=&quot;mt-5&quot;&gt;Features&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fully secured quick prototyping.&lt;/li&gt;&lt;li&gt;Response format negotiation. (supporting JSON and XML add &amp;quot;.json&amp;quot; or &amp;quot;.xml&amp;quot; to api end point)&lt;/li&gt;&lt;li&gt;Support for the OPTIONS and HEAD verbs.&lt;/li&gt;&lt;li&gt;Full search support on all fields. Ex: https://gorest.co.in/public/v2/users?name=kumar&lt;/li&gt;&lt;li&gt;Data created/modified by a user is only visible to that perticular user, all data will be deleted and recreated on daily basis.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/my-account/logs&quot;&gt;Request and response logging.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;row&quot;&gt;&lt;div class=&quot;col-md-6&quot;&gt;&lt;h3 class=&quot;mt-3&quot;&gt;Rate Limiting Headers&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;/my-account/access-tokens&quot;&gt;Customize the rate limit per access token.&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;X-RateLimit-Limit&lt;/code&gt; number of allowed requests/minute.&lt;/li&gt;&lt;li&gt;&lt;code&gt;X-RateLimit-Remaining&lt;/code&gt; remaining requests within the current period.&lt;/li&gt;&lt;li&gt;&lt;code&gt;X-RateLimit-Reset&lt;/code&gt; seconds to wait before having maximum number of allowed requests again.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;col-md-6&quot;&gt;&lt;h3 class=&quot;mt-3&quot;&gt;Pagination Headers&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;X-Pagination-Total&lt;/code&gt; total number of results.&lt;/li&gt;&lt;li&gt;&lt;code&gt;X-Pagination-Pages&lt;/code&gt; total number of pages.&lt;/li&gt;&lt;li&gt;&lt;code&gt;X-Pagination-Page&lt;/code&gt; current page number.&lt;/li&gt;&lt;li&gt;&lt;code&gt;X-Pagination-Limit&lt;/code&gt; results per page.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3 class=&quot;mt-3&quot;&gt;API Version 2&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Path: &lt;code&gt;/public/v2/*&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Response format Object or Array of Objects &lt;code&gt;{}&lt;/code&gt; or &lt;code&gt;[{}]&lt;/code&gt;&lt;/li&gt;&lt;li&gt;HTTP Status code contains the actual response code, response headers contains the pagination information, response body contains the results.&lt;/li&gt;&lt;/ul&gt;&lt;h3 class=&quot;mt-3&quot;&gt;API Version 1&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Path: &lt;code&gt;/public/v1/*&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Response format &lt;code&gt;{ meta:, data: }&lt;/code&gt;&lt;/li&gt;&lt;li&gt;HTTP status code contains the actual response code, &lt;code&gt;meta&lt;/code&gt; contains the pagination information and &lt;code&gt;data&lt;/code&gt; contains the actual results&lt;/li&gt;&lt;/ul&gt;&lt;h3 class=&quot;mt-3&quot;&gt;API Version 0&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Path: &lt;code&gt;/public-api/*&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Response format &lt;code&gt;{ code :, meta:, data: }&lt;/code&gt;&lt;/li&gt;&lt;li&gt;HTTP status code is always 200, &lt;code&gt;code&lt;/code&gt; contains the actual response code, &lt;code&gt;meta&lt;/code&gt; contains the pagination information, &lt;code&gt;data&lt;/code&gt; contains the actual results&lt;/li&gt;&lt;/ul&gt;&lt;h3 class=&quot;mt-5&quot;&gt;Authentication&lt;/h3&gt;&lt;p&gt;Unlike Web applications, RESTful APIs are usually stateless, which means sessions or cookies should not be used. Therefore, each request should come with some sort of authentication credentials. A common practice is to send a secret access token with each request to authenticate the user. Since an access token can be used to uniquely identify and authenticate a user, API requests should always be sent via HTTPS to prevent man-in-the-middle (MitM) attacks. &lt;/p&gt;&lt;p&gt;There are different ways to send an access token:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Basic_access_authentication&quot; rel=&quot;noreferrer&quot; target=&quot;_blank&quot;&gt;HTTP Basic Auth&lt;/a&gt;: the access token is sent as the username.&lt;/li&gt;&lt;li&gt;Query parameter: the access token is sent as a query parameter in the API URL. &lt;br/&gt;e.g. &lt;samp&gt;https://gorest.co.in/public/v2/users?access-token=xxx&lt;/samp&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://oauth.net/2/&quot; rel=&quot;noreferrer&quot; target=&quot;_blank&quot;&gt;OAuth 2&lt;/a&gt;: the access token is obtained by the consumer from an authorization server and sent to the API server via &lt;a href=&quot;http://tools.ietf.org/html/rfc6750&quot; rel=&quot;noreferrer&quot; target=&quot;_blank&quot;&gt;HTTP Bearer Tokens &lt;/a&gt;, according to the OAuth2 protocol.&lt;/li&gt;&lt;li class=&quot;text-info&quot;&gt;This API supports only &amp;quot;HTTP Bearer Tokens&amp;quot; and &amp;quot;Query parameter Auth&amp;quot;&lt;/li&gt;&lt;/ul&gt;&lt;h3 class=&quot;mt-5 mb-3&quot;&gt;cUrl Examples for REST API&lt;/h3&gt;&lt;div class=&quot;mb-3&quot;&gt;&lt;h6 class=&quot;text-info&quot;&gt;List users&lt;/h6&gt;&lt;samp class=&quot;user-select-all text-break&quot;&gt;curl -i -H &quot;Accept:application/json&quot; -H &quot;Content-Type:application/json&quot; -H &quot;Authorization: Bearer ACCESS-TOKEN&quot; -XGET &quot;https://gorest.co.in/public/v2/users&quot;&lt;/samp&gt;&lt;/div&gt;&lt;div class=&quot;mb-3&quot;&gt;&lt;h6 class=&quot;text-info&quot;&gt;Create user&lt;/h6&gt;&lt;samp class=&quot;user-select-all text-break&quot;&gt;curl -i -H &quot;Accept:application/json&quot; -H &quot;Content-Type:application/json&quot; -H &quot;Authorization: Bearer ACCESS-TOKEN&quot; -XPOST &quot;https://gorest.co.in/public/v2/users&quot; -d &#39;{&quot;name&quot;:&quot;Tenali Ramakrishna&quot;, &quot;gender&quot;:&quot;male&quot;, &quot;email&quot;:&quot;&lt;a href=&quot;/cdn-cgi/l/email-protection&quot; class=&quot;__cf_email__&quot; data-cfemail=&quot;4135242f202d286f33202c202a332832292f2001707422246f222e2c&quot;&gt;[email&amp;#160;protected]&lt;/a&gt;&quot;, &quot;status&quot;:&quot;active&quot;}&#39; &lt;/samp&gt;&lt;/div&gt;&lt;div class=&quot;mb-3&quot;&gt;&lt;h6 class=&quot;text-info&quot;&gt;Update user&lt;/h6&gt;&lt;samp class=&quot;user-select-all text-break&quot;&gt;curl -i -H &quot;Accept:application/json&quot; -H &quot;Content-Type:application/json&quot; -H &quot;Authorization: Bearer ACCESS-TOKEN&quot; -XPATCH &quot;https://gorest.co.in/public/v2/users/1910&quot; -d &#39;{&quot;name&quot;:&quot;Allasani Peddana&quot;, &quot;email&quot;:&quot;&lt;a href=&quot;/cdn-cgi/l/email-protection&quot; class=&quot;__cf_email__&quot; data-cfemail=&quot;accdc0c0cddfcdc2c582dcc9c8c8cdc2cdec9d99cfc982cfc3c1&quot;&gt;[email&amp;#160;protected]&lt;/a&gt;&quot;, &quot;status&quot;:&quot;active&quot;}&#39; &lt;/samp&gt;&lt;/div&gt;&lt;div class=&quot;mb-3&quot;&gt;&lt;h6 class=&quot;text-info&quot;&gt;Delete user&lt;/h6&gt;&lt;samp class=&quot;user-select-all text-break&quot;&gt;curl -i -H &quot;Accept:application/json&quot; -H &quot;Content-Type:application/json&quot; -H &quot;Authorization: Bearer ACCESS-TOKEN&quot; -XDELETE &quot;https://gorest.co.in/public/v2/users/1910&quot;&lt;/samp&gt;&lt;/div&gt;&lt;h3 class=&quot;mt-5 mb-3&quot;&gt;cUrl Examples for GraphQL&lt;/h3&gt;&lt;div class=&quot;mb-3&quot;&gt;&lt;h6 class=&quot;text-info&quot;&gt;List users&lt;/h6&gt;&lt;samp class=&quot;user-select-all text-break&quot;&gt;curl -i -H &quot;Accept:application/json&quot; -H &quot;Content-Type:application/json&quot; -H &quot;Authorization: Bearer ACCESS-TOKEN&quot; -XPOST &quot;https://gorest.co.in/public/v2/graphql&quot; -d &#39;{&quot;query&quot;:&quot;query{users {pageInfo {endCursor startCursor hasNextPage hasPreviousPage} totalCount nodes {id name email gender status}}}&quot;}&#39;&lt;/samp&gt;&lt;/div&gt;&lt;div class=&quot;mb-3&quot;&gt;&lt;h6 class=&quot;text-info&quot;&gt;Get User&lt;/h6&gt;&lt;samp class=&quot;user-select-all text-break&quot;&gt;curl -i -H &quot;Accept:application/json&quot; -H &quot;Content-Type:application/json&quot; -H &quot;Authorization: Bearer ACCESS-TOKEN&quot; -XPOST &quot;https://gorest.co.in/public/v2/graphql&quot; -d &#39;{&quot;query&quot;:&quot;query{user(id: 1910) { id name email gender status }}&quot;}&#39;&lt;/samp&gt;&lt;/div&gt;&lt;div class=&quot;mb-3&quot;&gt;&lt;h6 class=&quot;text-info&quot;&gt;Create User&lt;/h6&gt;&lt;samp class=&quot;user-select-all text-break&quot;&gt;curl -i -H &quot;Accept:application/json&quot; -H &quot;Content-Type:application/json&quot; -H &quot;Authorization: Bearer ACCESS-TOKEN&quot; -XPOST &quot;https://gorest.co.in/public/v2/graphql&quot; -d &#39;{&quot;query&quot;:&quot;mutation{createUser(input: {name: \&quot;Tenali Ramakrishna\&quot; gender: \&quot;male\&quot; email: \&quot;&lt;a href=&quot;/cdn-cgi/l/email-protection&quot; class=&quot;__cf_email__&quot; data-cfemail=&quot;9ce8f9f2fdf0f5b2eefdf1fdf7eef5eff4f2fddcada9fff9b2fff3f1&quot;&gt;[email&amp;#160;protected]&lt;/a&gt;\&quot; status: \&quot;active\&quot;}) {user{id name gender email status}}}&quot;}&#39;&lt;/samp&gt;&lt;/div&gt;&lt;div class=&quot;mb-3&quot;&gt;&lt;h6 class=&quot;text-info&quot;&gt;Update User&lt;/h6&gt;&lt;samp class=&quot;user-select-all text-break&quot;&gt;curl -i -H &quot;Accept:application/json&quot; -H &quot;Content-Type:application/json&quot; -H &quot;Authorization: Bearer ACCESS-TOKEN&quot; -XPOST &quot;https://gorest.co.in/public/v2/graphql&quot; -d &#39;{&quot;query&quot;:&quot;mutation{updateUser(input: {id: 1910 name: \&quot;Allasani Peddana\&quot; email: \&quot;&lt;a href=&quot;/cdn-cgi/l/email-protection&quot; class=&quot;__cf_email__&quot; data-cfemail=&quot;16777a7a776577787f386673727277787756272375733875797b&quot;&gt;[email&amp;#160;protected]&lt;/a&gt;\&quot; status: \&quot;active\&quot;}) {user{id name gender email status}}}&quot;}&#39;&lt;/samp&gt;&lt;/div&gt;&lt;div class=&quot;mb-3&quot;&gt;&lt;h6 class=&quot;text-info&quot;&gt;Delete User&lt;/h6&gt;&lt;samp class=&quot;user-select-all text-break&quot;&gt;curl -i -H &quot;Accept:application/json&quot; -H &quot;Content-Type:application/json&quot; -H &quot;Authorization: Bearer ACCESS-TOKEN&quot; -XPOST &quot;https://gorest.co.in/public/v2/graphql&quot; -d &#39;{&quot;query&quot;:&quot;mutation{deleteUser(input: {id: 1910}){user {id name email gender status}}}&quot;}&#39;&lt;/samp&gt;&lt;/div&gt;&lt;h3 class=&quot;mt-5&quot;&gt;REST API Http Response Codes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;200: OK. Everything worked as expected.&lt;/li&gt;&lt;li&gt;201: A resource was successfully created in response to a POST request. The Location header contains the URL pointing to the newly created resource.&lt;/li&gt;&lt;li&gt;204: The request was handled successfully and the response contains no body content (like a DELETE request).&lt;/li&gt;&lt;li&gt;304: The resource was not modified. You can use the cached version.&lt;/li&gt;&lt;li&gt;400: Bad request. This could be caused by various actions by the user, such as providing invalid JSON data in the request body etc.&lt;/li&gt;&lt;li&gt;401: Authentication failed.&lt;/li&gt;&lt;li&gt;403: The authenticated user is not allowed to access the specified API endpoint.&lt;/li&gt;&lt;li&gt;404: The requested resource does not exist.&lt;/li&gt;&lt;li&gt;405: Method not allowed. Please check the Allow header for the allowed HTTP methods.&lt;/li&gt;&lt;li&gt;415: Unsupported media type. The requested content type or version number is invalid.&lt;/li&gt;&lt;li&gt;422: Data validation failed (in response to a POST request, for example). Please check the response body for detailed error messages.&lt;/li&gt;&lt;li&gt;429: Too many requests. The request was rejected due to rate limiting.&lt;/li&gt;&lt;li&gt;500: Internal server error. This could be caused by internal program errors.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;hr class=&quot;mt-5&quot; /&gt;&lt;div class=&quot;container&quot;&gt;&lt;div class=&quot;footer&quot;&gt;&lt;ul class=&quot;list-inline&quot;&gt;&lt;li class=&quot;list-inline-item&quot;&gt;&amp;copy; Go Rest 2023&lt;/li&gt;&lt;li class=&quot;list-inline-item float-lg-end&quot;&gt;&lt;a href=&quot;/privacy-policy&quot;&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;list-inline-item float-lg-end me-3&quot;&gt;&lt;a href=&quot;/contact-us&quot;&gt;Contact Us&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;script data-cfasync=&quot;false&quot; src=&quot;/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:11]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:11]</span>
+                <span class="scenario-name">Testando tipo, primeiro do array, depois dos elementos do array.</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1238</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:11]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def url_base = https: &#39;https://gorest.co.in/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">18:57:18.466 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url url_base</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/public/v2/users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1186</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">18:57:18.475 request:
+1 &gt; GET https://gorest.co.in/public/v2/users
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+18:57:19.658 response time in milliseconds: 1146
+1 &lt; 200
+1 &lt; Date: Sun, 25 Jun 2023 21:57:19 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; etag: W/&quot;e48937462a805385c7e838038c8fc373&quot;
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 &lt; x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 &lt; x-links-previous: 
+1 &lt; x-pagination-limit: 10
+1 &lt; x-pagination-page: 1
+1 &lt; x-pagination-pages: 282
+1 &lt; x-pagination-total: 2820
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-request-id: d0ae8cea-20b8-4118-87e8-20ef858c978e
+1 &lt; x-runtime: 0.060860
+1 &lt; x-xss-protection: 0
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=F5BP11AsTHYK5v%2BsR1yV%2B%2FB3WN8wapaD9GSr17iYQzj%2BkIUtHQwW6dg2mjdZYEUvkMATNO2rQuJfuTbxFXVEVfzQdsz69W1B9JiToGVahVGScr2gkpeVLc3ukmHWOd4%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 7dd07727eb31a4f0-GRU
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+[{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Chidambar Khanna VM&quot;,&quot;id&quot;:3186779,&quot;email&quot;:&quot;chidambar_vm_khanna@hilpert.example&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Aanandaswarup Ahuja&quot;,&quot;id&quot;:3186778,&quot;email&quot;:&quot;aanandaswarup_ahuja@schuppe.test&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Bhaaswar Kaniyar&quot;,&quot;id&quot;:3186777,&quot;email&quot;:&quot;kaniyar_bhaaswar@friesen.test&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Chandini Nambeesan Sr.&quot;,&quot;id&quot;:3186776,&quot;email&quot;:&quot;chandini_nambeesan_sr@graham.test&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Sen. Rudra Reddy&quot;,&quot;id&quot;:3186772,&quot;email&quot;:&quot;reddy_sen_rudra@witting.example&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Bishnu Agarwal&quot;,&quot;id&quot;:3186771,&quot;email&quot;:&quot;bishnu_agarwal@bogisich-daugherty.example&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Purnima Acharya&quot;,&quot;id&quot;:3186769,&quot;email&quot;:&quot;purnima_acharya@kulas.example&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Vaishno Chopra&quot;,&quot;id&quot;:3186768,&quot;email&quot;:&quot;vaishno_chopra@kunde-bernhard.test&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Uma Banerjee&quot;,&quot;id&quot;:3186767,&quot;email&quot;:&quot;banerjee_uma@emard.test&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Dhyaneshwar Achari LLD&quot;,&quot;id&quot;:3186766,&quot;email&quot;:&quot;lld_achari_dhyaneshwar@koch.example&quot;,&quot;status&quot;:&quot;inactive&quot;}]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match $ == &#39;#[]&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">26</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match each $ contains {email: &#39;#string&#39;, id: &#39;#number&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">20</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:19]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:19]</span>
+                <span class="scenario-name">Testando se os usuarios possuem nomes com mais de 5 caracteres.</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>596</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:19]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:19]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def url_base = https: &#39;https://gorest.co.in/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">18:57:19.725 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url url_base</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/public/v2/users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">563</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.22">18:57:19.729 request:
+1 &gt; GET https://gorest.co.in/public/v2/users
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+18:57:20.287 response time in milliseconds: 556
+1 &lt; 200
+1 &lt; Date: Sun, 25 Jun 2023 21:57:20 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; etag: W/&quot;e48937462a805385c7e838038c8fc373&quot;
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 &lt; x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 &lt; x-links-previous: 
+1 &lt; x-pagination-limit: 10
+1 &lt; x-pagination-page: 1
+1 &lt; x-pagination-pages: 282
+1 &lt; x-pagination-total: 2820
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-request-id: b51b8748-5da3-4bfe-8fcb-25339c073910
+1 &lt; x-runtime: 0.089752
+1 &lt; x-xss-protection: 0
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=2SsBNA0g%2FDQhHODGX8cgPPDljWqHZZNVOSkEFItYQ00eLDYY3OwHaJDfGQcK3JcL%2BSH3ExCa94kZ4s%2BigYxcV956nz0JqXXOU%2FO87aNYMhd9Oh%2FIdBhXJtO562%2FV1xs%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 7dd077300dae4cf1-GRU
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+[{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Chidambar Khanna VM&quot;,&quot;id&quot;:3186779,&quot;email&quot;:&quot;chidambar_vm_khanna@hilpert.example&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Aanandaswarup Ahuja&quot;,&quot;id&quot;:3186778,&quot;email&quot;:&quot;aanandaswarup_ahuja@schuppe.test&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Bhaaswar Kaniyar&quot;,&quot;id&quot;:3186777,&quot;email&quot;:&quot;kaniyar_bhaaswar@friesen.test&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Chandini Nambeesan Sr.&quot;,&quot;id&quot;:3186776,&quot;email&quot;:&quot;chandini_nambeesan_sr@graham.test&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Sen. Rudra Reddy&quot;,&quot;id&quot;:3186772,&quot;email&quot;:&quot;reddy_sen_rudra@witting.example&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Bishnu Agarwal&quot;,&quot;id&quot;:3186771,&quot;email&quot;:&quot;bishnu_agarwal@bogisich-daugherty.example&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Purnima Acharya&quot;,&quot;id&quot;:3186769,&quot;email&quot;:&quot;purnima_acharya@kulas.example&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Vaishno Chopra&quot;,&quot;id&quot;:3186768,&quot;email&quot;:&quot;vaishno_chopra@kunde-bernhard.test&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Uma Banerjee&quot;,&quot;id&quot;:3186767,&quot;email&quot;:&quot;banerjee_uma@emard.test&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Dhyaneshwar Achari LLD&quot;,&quot;id&quot;:3186766,&quot;email&quot;:&quot;lld_achari_dhyaneshwar@koch.example&quot;,&quot;status&quot;:&quot;inactive&quot;}]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match each $ contains {name: &quot;#string? _.length &gt;= 5&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">33</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4:26]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4:26]</span>
+                <span class="scenario-name">Testando url invalida.</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>466</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4:26]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def url_base = https: &#39;https://gorest.co.in/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">18:57:20.333 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url url_base</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/users/cart&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">461</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.29">18:57:20.350 request:
+1 &gt; GET https://gorest.co.in/users/cart
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+18:57:20.803 response time in milliseconds: 452
+1 &lt; 404
+1 &lt; Date: Sun, 25 Jun 2023 21:57:20 GMT
+1 &lt; Content-Type: text/html; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: no-cache
+1 &lt; feature-policy: camera &#39;none&#39;; gyroscope &#39;none&#39;; microphone &#39;none&#39;; usb &#39;none&#39;; fullscreen &#39;self&#39;
+1 &lt; link: &lt;/assets/application-c2215c866bf3df3a67f73d4985e0a3153d43b861d8075949775721f2a936046c.css&gt;; rel=preload; as=style; nopush
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-request-id: 200f7cb5-c9c9-447e-b641-359333f47e75
+1 &lt; x-runtime: 0.028843
+1 &lt; x-xss-protection: 0
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FDhjpVoVu82EtVkbP3Wgo2pUcTUzFnqKVTtp0eR7L%2BnrT6OWuIuR2XUwyEoMkuTMk8UGCOVIcQiZrSwCNp6kazEFNrUu1E6DVpt81MHe%2FYoyVGHgTUahxu5oknqSE7c%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 7dd07733bacf0103-GRU
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+1 &lt; Set-Cookie: _gorest_session=SZ8aDtieAv3WM7dQFINcqD99TNOq%2FDkIWh7i1glXxGxDwLefDtThVRd3T9XUBKBOI3Kg4tr%2FvTAUyCYSNDfCPM3Sw4x2GLkM4qOUmQJDMwiAFcN3O5ps2PFqOMHazYQTZ6lzJY2BCBIEPaglIjDUlwJyBoAt7aq5WriVimIWWNwo4aqRbBrR6kHMGibwAnhohaBDH5hcE9GjLCcv7V6dFLY2ovJHwE7An%2BK6qRuv4AilPtXvjkikvYo%2Bp2QVSmRFMt%2FTIFNLv01cexNr6Pdj09YSbFdJ9dk%3D--WW9vZ43lAj8Tsjr1--EzhR1fzv4OGhe9P0wg%2FKxQ%3D%3D; Domain=gorest.co.in
+&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;meta content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot; name=&quot;viewport&quot; /&gt;&lt;link href=&quot;/favicon.ico&quot; rel=&quot;icon&quot; type=&quot;image/x-icon&quot; /&gt;&lt;title&gt;Page Not Found | GO REST&lt;/title&gt;&lt;meta name=&quot;csrf-param&quot; content=&quot;authenticity_token&quot; /&gt;
+&lt;meta name=&quot;csrf-token&quot; content=&quot;rCOr8cYAKzNwJ0DIJ5YgSp2mypvRJvigpbJz49ybd_GAiZXrgqwJP4EDjgGWQmF60_kyDOhhqz-iGj4UDyqJDA&quot; /&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/application-c2215c866bf3df3a67f73d4985e0a3153d43b861d8075949775721f2a936046c.css&quot; media=&quot;all&quot; data-turbolinks-track=&quot;reload&quot; /&gt;&lt;script src=&quot;/packs/js/application-6d702c1d0fe0df9ab52f.js&quot; data-turbolinks-track=&quot;reload&quot; defer=&quot;defer&quot;&gt;&lt;/script&gt;&lt;script async=&quot;true&quot; crossorigin=&quot;anonymous&quot; src=&quot;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899&quot;&gt;&lt;/script&gt;&lt;script async=&quot;true&quot; src=&quot;https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS&quot;&gt;&lt;/script&gt;&lt;script&gt;window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag(&#39;js&#39;, new Date());gtag(&#39;config&#39;, &#39;G-7KR6VNWHWS&#39;);&lt;/script&gt;&lt;/head&gt;&lt;body&gt;&lt;nav class=&quot;navbar navbar-expand-lg navbar-dark bg-dark sticky-top&quot;&gt;&lt;div class=&quot;container&quot;&gt;&lt;a class=&quot;navbar-brand&quot; href=&quot;/&quot;&gt;&lt;i class=&quot;fas fa-exchange-alt&quot;&gt;&lt;/i&gt; Go REST&lt;/a&gt;&lt;button aria-controls=&quot;AppNavBar&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot; class=&quot;navbar-toggler&quot; data-bs-target=&quot;#AppNavBar&quot; data-bs-toggle=&quot;collapse&quot; type=&quot;button&quot;&gt;&lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;&lt;/button&gt;&lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;AppNavBar&quot;&gt;&lt;ul class=&quot;navbar-nav ms-auto&quot;&gt;&lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;/chandamama-stories&quot;&gt;&lt;i class=&quot;fas fa-cloud-moon&quot;&gt;&lt;/i&gt; Chandamama Stories&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;/qa&quot;&gt;&lt;i class=&quot;fas fa-life-ring&quot;&gt;&lt;/i&gt; Help&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;/rest-console&quot;&gt;&lt;i class=&quot;fab fa-linux&quot;&gt;&lt;/i&gt; Rest Console&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;nav-item dropdown&quot;&gt;&lt;a aria-expanded=&quot;false&quot; class=&quot;nav-link dropdown-toggle&quot; data-bs-toggle=&quot;dropdown&quot; href=&quot;#&quot; id=&quot;ToolsDropDown&quot; role=&quot;button&quot;&gt;&lt;i class=&quot;fas fa-tools&quot;&gt;&lt;/i&gt; Tools&lt;/a&gt;&lt;ul aria-labelledby=&quot;ToolsDropDown&quot; class=&quot;dropdown-menu&quot;&gt;&lt;li class&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;/tools/base64-encode-decode&quot;&gt;Base64 Encode/Decode&lt;/a&gt;&lt;/li&gt;&lt;li class&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;/tools/url-encode-decode&quot;&gt;Url Encode/Decode&lt;/a&gt;&lt;/li&gt;&lt;li class&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;/tools/gcode-translator&quot;&gt;G-Code Translator&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;/consumer/login&quot;&gt;Login&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/nav&gt;&lt;div class=&quot;container pt-3&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}&lt;/style&gt;&lt;div class=&quot;card text-white border-secondary bg-dark&quot;&gt;&lt;div class=&quot;card-header&quot;&gt;&lt;h1 class=&quot;card-title text-warning&quot;&gt;&lt;i class=&quot;fas fa-ghost text-white slide-right&quot;&gt;&lt;/i&gt; HTTP: Not Found &lt;/h1&gt;&lt;/div&gt;&lt;div class=&quot;card-body&quot;&gt;&lt;h3 class=&quot;leaad code-text&quot;&gt;&lt;code class=&quot;mb-3&quot;&gt;&lt;span&gt;this_page&lt;/span&gt;.&lt;em&gt;not_found&lt;/em&gt; = true&lt;/code&gt;&lt;/h3&gt;&lt;p class=&quot;lead code-text&quot;&gt;&lt;code class=&quot;mb-2&quot;&gt;&lt;span&gt;if&lt;/span&gt; &lt;b&gt;you_spelt_it_wrong&lt;/b&gt; &lt;br/&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;try_again&lt;/span&gt;&lt;br/&gt;&lt;/code&gt;&lt;code class=&quot;mb-2&quot;&gt;&lt;span&gt;elsif &lt;b&gt;we_screwed_up&lt;/b&gt;&lt;/span&gt; &lt;br/&gt;&amp;nbsp;&amp;nbsp;&lt;em&gt;print&lt;/em&gt; &lt;i&gt;&quot;We&#39;re really sorry about that.&quot;&lt;/i&gt;&lt;br/&gt;&lt;/code&gt;&lt;code class=&quot;mb-2&quot;&gt;&lt;span&gt;end&lt;/span&gt;&lt;/code&gt;&lt;code class=&quot;mb-2&quot;&gt;&lt;span&gt;redirect_to&lt;/span&gt; &lt;em&gt;home_page&lt;/em&gt;&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;hr class=&quot;mt-5&quot; /&gt;&lt;div class=&quot;container&quot;&gt;&lt;div class=&quot;footer&quot;&gt;&lt;ul class=&quot;list-inline&quot;&gt;&lt;li class=&quot;list-inline-item&quot;&gt;&amp;copy; Go Rest 2023&lt;/li&gt;&lt;li class=&quot;list-inline-item float-lg-end&quot;&gt;&lt;a href=&quot;/privacy-policy&quot;&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;list-inline-item float-lg-end me-3&quot;&gt;&lt;a href=&quot;/contact-us&quot;&gt;Contact Us&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 404</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[5:32]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[5:32]</span>
+                <span class="scenario-name">criando um novo usuario.</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1264</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[5:32]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[5:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def url_base = https: &#39;https://gorest.co.in/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">18:57:20.813 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = &#39;Bearer eb3720edc0add1e427a4ffc5289b3fe9c2636e674a05dac8327a663e3a5af501&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url url_base</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/public/v2/users/1910&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref passed">36</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method delete</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1257</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.36">18:57:20.830 request:
+1 &gt; DELETE https://gorest.co.in/public/v2/users/1910
+1 &gt; Authorization: Bearer eb3720edc0add1e427a4ffc5289b3fe9c2636e674a05dac8327a663e3a5af501
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+18:57:22.077 response time in milliseconds: 1247
+1 &lt; 204
+1 &lt; Date: Sun, 25 Jun 2023 21:57:22 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: no-cache
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-ratelimit-limit: 90
+1 &lt; x-ratelimit-remaining: 89
+1 &lt; x-ratelimit-reset: 1
+1 &lt; x-request-id: 5f591304-7bf3-4160-83db-7a724fc953a2
+1 &lt; x-runtime: 0.069540
+1 &lt; x-xss-protection: 0
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=QVqmijphquXJiV4feoTNVGYM7XUf2GqLTwRvrFaZq7UQQe5LuOzdsr9zzc3eMvzFahmSqTleoUZdmUZOzOaSRiX64qsR69OJyMBct3eviklzl5qQp8X7Kcp93gVowI0%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 7dd07736ddb41a8c-GRU
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.37">
+      <div class="step-ref passed">37</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
